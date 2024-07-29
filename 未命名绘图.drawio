@@ -44,6 +44,34 @@
             <mxPoint x="200" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="P2AgG_3e24iThaE6c2Qp-16" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;FLV&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="470" as="sourcePoint" />
+            <mxPoint x="300" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P2AgG_3e24iThaE6c2Qp-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="540" as="sourcePoint" />
+            <mxPoint x="450" y="230" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P2AgG_3e24iThaE6c2Qp-18" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;推流&lt;/span&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="P2AgG_3e24iThaE6c2Qp-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P2AgG_3e24iThaE6c2Qp-20" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.smiley" vertex="1" parent="1">
+          <mxGeometry x="670" y="560" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="P2AgG_3e24iThaE6c2Qp-21" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="603" as="sourcePoint" />
+            <mxPoint x="180" y="603" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="603" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
