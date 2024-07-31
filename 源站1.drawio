@@ -1,9 +1,60 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="第 1 页" id="Csk6oYxuSlhTqryW5UdV">
-    <mxGraphModel>
+    <mxGraphModel dx="1242" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="dKMWGZUhc4242e2LSLOc-2" value="切片源站p2pSlicer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dKMWGZUhc4242e2LSLOc-3" value="源站" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dKMWGZUhc4242e2LSLOc-4" value="CDN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="400" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dKMWGZUhc4242e2LSLOc-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dKMWGZUhc4242e2LSLOc-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="219.66" y="300" as="sourcePoint" />
+            <mxPoint x="220" y="397" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dKMWGZUhc4242e2LSLOc-7" value="FLV" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="dKMWGZUhc4242e2LSLOc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dKMWGZUhc4242e2LSLOc-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="293" as="sourcePoint" />
+            <mxPoint x="430" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dKMWGZUhc4242e2LSLOc-9" value="P2P" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="dKMWGZUhc4242e2LSLOc-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dKMWGZUhc4242e2LSLOc-10" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="585" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dKMWGZUhc4242e2LSLOc-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.468;exitY=1.021;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dKMWGZUhc4242e2LSLOc-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="570" as="sourcePoint" />
+            <mxPoint x="320" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dKMWGZUhc4242e2LSLOc-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="260" as="sourcePoint" />
+            <mxPoint x="360" y="259.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="259.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dKMWGZUhc4242e2LSLOc-13" value="FLV" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="dKMWGZUhc4242e2LSLOc-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
